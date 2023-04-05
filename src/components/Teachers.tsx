@@ -1,6 +1,6 @@
 import React from "react";
-import { teachers } from "../assets/text";
-import Title from "./Title";
+import { teachers } from "../common/text";
+import Title from "../common/Title";
 
 const Teachers: React.FC = () => {
   return (

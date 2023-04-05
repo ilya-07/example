@@ -1,9 +1,9 @@
 import React from "react";
-import { filter, filterContent } from "../assets/text";
+import { IFilterContent, filter, filterContent } from "./text";
 import Title from "./Title";
 import { images } from "../assets/img";
 import { useAppDispatch, useAppSelector } from "../redux/state";
-import { coursesState } from "./../redux/changePage";
+import { coursesState } from "../redux/changePage";
 import { filteredState, getFilteredCourse } from "../redux/filterCourceSlice";
 // компонент на странице определенного курса
 
@@ -12,7 +12,7 @@ const Chose: React.FC<any> = (props) => {
   const cources = useAppSelector(coursesState);
   const filterCources = useAppSelector(filteredState);
   const [keyTab, setKkeyTab] = React.useState<string>(filter[0].name);
-  const callFilteredData = (el: { name: string }) => {
+  const callFilteredData = (el: { name: string }): void => {
     setKkeyTab(el.name);
     dispatch(getFilteredCourse(el.name));
   };
@@ -41,8 +41,8 @@ const Chose: React.FC<any> = (props) => {
         <div className="flex flex-col  gap-[30px]">
           {props.data
 
-            .filter((el: { [key: string]: string }[]) => el.key === keyTab)
-            .map((el: { [key: string]: string }, i: number) => (
+            .filter((el: IFilterContent) => el.key === keyTab)
+            .map((el: IFilterContent, i: number) => (
               // filterCources.filteredData.map(
               //   (el: { [key: string]: string }, i: number) => (
               <article

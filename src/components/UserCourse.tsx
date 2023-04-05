@@ -1,5 +1,5 @@
 import React from "react";
-import { userCourses } from "../assets/text";
+import { userCourses } from "../common/text";
 import { changePage } from "../redux/changePage";
 import { Link } from "react-router-dom";
 import { useAppDispatch } from "../redux/state";

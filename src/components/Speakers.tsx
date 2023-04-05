@@ -1,6 +1,6 @@
 import React from "react";
-import { tab } from "../assets/text";
-import Title from "./Title";
+import { tab } from "../common/text";
+import Title from "../common/Title";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

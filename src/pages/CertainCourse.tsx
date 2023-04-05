@@ -1,8 +1,8 @@
 import React from "react";
-import { getCourse } from "../assets/text";
+import { getCourse } from "../common/text";
 import AboutCourses from "../components/AboutCourses";
-import Chose from "../components/Chose";
-import GeneralHeader from "../components/GeneralHeader";
+import Chose from "../common/Chose";
+import GeneralHeader from "../common/GeneralHeader";
 import Footer from "../components/Footer";
 import { setHLogo, backLogo } from "../redux/checkRegistrationSlice";
 import { useAppDispatch } from "../redux/state";

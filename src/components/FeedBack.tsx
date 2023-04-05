@@ -1,10 +1,10 @@
 import React from "react";
-import Title from "./Title";
+import Title from "../common/Title";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import { feedback } from "../assets/text";
+import { feedback } from "../common/text";
 const FeedBack: React.FC = () => {
   return (
     <section className="  pb-[80px] pd:mb-[120px] text-[#272523]">

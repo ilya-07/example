@@ -1,5 +1,5 @@
 import React from "react";
-import { lessons } from "../assets/text";
+import { lessons } from "../common/text";
 import { images } from "./../assets/img";
 import { Link } from "react-router-dom";
 

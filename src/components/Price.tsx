@@ -1,9 +1,9 @@
 import React from "react";
 import { images } from "../assets/img";
-import { price } from "../assets/text";
-import Btn from "./Btn";
+import { price } from "../common/text";
+import Btn from "../common/Btn";
 import PaymentForm from "./PaymentForm";
-import Title from "./Title";
+import Title from "../common/Title";
 
 const Price: React.FC = () => {
   const [PriceId, setPriceId] = React.useState<null | number>(null);

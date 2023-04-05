@@ -1,4 +1,4 @@
-import { images } from "./img";
+import { images } from "../assets/img";
 export const header: {
   none: boolean;
   img: string;
@@ -382,8 +382,18 @@ export const filter = [
     name: "География",
   },
 ];
-
-export const filterContent = [
+export interface IFilterContent {
+  key: string;
+  color: string;
+  deadline: string;
+  desc: string;
+  text: string;
+  duration: string;
+  certainDur: string;
+  coast: string;
+  numCoast: string;
+}
+export const filterContent: IFilterContent[] = [
   {
     key: "Обществознание",
     color: "orange",

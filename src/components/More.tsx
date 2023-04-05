@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "./Title";
-import { more } from "../assets/text";
+import Title from "../common/Title";
+import { more } from "../common/text";
 
 const More: React.FC = () => {
   return (

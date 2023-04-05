@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { images } from "../assets/img";
-import { duraction } from "../assets/text";
-import Title from "./Title";
+import { duraction } from "../common/text";
+import Title from "../common/Title";
 
 const Duraction: React.FC = () => {
   return (

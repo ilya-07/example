@@ -1,5 +1,5 @@
 import React from "react";
-import { coursesPlus } from "../assets/text";
+import { coursesPlus } from "../common/text";
 
 // Страница определенного курса, первый блок после шапки:о плюсах курса
 const AboutCourses: React.FC = () => {

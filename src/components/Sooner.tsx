@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Title";
+import Title from "../common/Title";
 import { Scrollbar } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Thumbs } from "swiper";
@@ -7,7 +7,7 @@ import "swiper/css/scrollbar";
 
 // Import Swiper styles
 import "swiper/css";
-import { soonCourse } from "../assets/text";
+import { soonCourse } from "../common/text";
 
 const Sooner: React.FC = () => {
   let count: number = 4;

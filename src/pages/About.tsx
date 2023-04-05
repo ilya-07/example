@@ -1,11 +1,11 @@
 import React from "react";
 import We from "../components/We";
-import GeneralHeader from "../components/GeneralHeader";
+import GeneralHeader from "../common/GeneralHeader";
 import Footer from "../components/Footer";
 import Text from "../components/Text";
 import { setHLogo, backLogo } from "../redux/checkRegistrationSlice";
 import { useAppDispatch } from "../redux/state";
-const About:React.FC = () => {
+const About: React.FC = () => {
   const dispatch = useAppDispatch();
   React.useEffect(() => {
     dispatch(backLogo());

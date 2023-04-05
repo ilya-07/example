@@ -1,7 +1,7 @@
 import React from "react";
 import { images } from "../assets/img";
-import { week } from "../assets/text";
-import Title from "./Title";
+import { week } from "../common/text";
+import Title from "../common/Title";
 const WeekD: React.FC = () => {
   const dasctopTites = [...new Set(week.map((el) => el.day))];
   const mobileTites = [...new Set(week.map((el) => el.time))];

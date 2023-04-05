@@ -1,7 +1,7 @@
 import React from "react";
-import { questions } from "../assets/text";
-import Btn from "./Btn";
-import Title from "./Title";
+import { questions } from "../common/text";
+import Btn from "../common/Btn";
+import Title from "../common/Title";
 import { images } from "../assets/img";
 const Questions: React.FC = () => {
   return (

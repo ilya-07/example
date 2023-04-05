@@ -4,7 +4,7 @@ import { IRootState } from "./state";
 
 export const getFilteredCourse = createAsyncThunk(
   "filter/getFilteredCourse",
-  async (el) => {
+  async (el: string) => {
     try {
       const getFilteredData = await axios.get(
         `http://localhost:api.odschool.ru/course/${el}`

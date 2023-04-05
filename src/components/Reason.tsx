@@ -1,6 +1,6 @@
 import React from "react";
-import { reason } from "../assets/text";
-import Title from "./Title";
+import { reason } from "../common/text";
+import Title from "../common/Title";
 
 const Reason: React.FC = () => {
   const partOfReason = [...reason].splice(0, 3);
